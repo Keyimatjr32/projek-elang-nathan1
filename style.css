@@ -1,0 +1,87 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+.featured, .about, .contact {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color:black;
+}
+
+h2, h3{
+    color:black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.btn-login{padding:10px 30px ;
+    background-color: orangered;
+    color: rgb(54, 255, 4);
+    border: none;
+    border-radius: 20px;}
+    
+    .btn-login{
+    padding: 10px 30px;
+    background-color: orangered;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    transition: all is;
+    }
+    
+    .btn-login:hover{
+        background-color: rgb(4, 2, 0);
+        color: rgb(255, 89, 0);
+        transform: translate(-10px);
+    }
+    
